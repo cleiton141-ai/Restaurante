@@ -1,0 +1,76 @@
+COMO ADICIONAR AS FOTOS — Bella Massa
+======================================
+
+A pasta "images" precisa ficar do lado do arquivo index.html, com esta
+estrutura:
+
+  index.html
+  style.css
+  script.js
+  images/
+    hero-pizza.jpg
+    sobre-cozinha.jpg
+    produtos/
+      e1.jpg, e2.jpg, e3.jpg, e4.jpg   (Entradas)
+      m1.jpg, m2.jpg, m3.jpg, m4.jpg   (Massas)
+      p1.jpg a p9.jpg                  (Pizzas)
+      b1.jpg a b4.jpg                  (Bebidas)
+
+Basta salvar cada foto com o NOME EXATO abaixo (sem acento, sem espaço,
+tudo minúsculo) que ela aparece automaticamente no site. Enquanto o
+arquivo não existir, o site mostra o ícone/ilustração de reserva —
+nada quebra.
+
+------------------------------------------------------------------
+FOTOS DE DESTAQUE (fora do cardápio)
+------------------------------------------------------------------
+images/hero-pizza.jpg        -> foto principal, topo do site (quadrada)
+images/sobre-cozinha.jpg     -> foto da seção "Sobre" (quadrada)
+Tamanho recomendado: 800x800px, formato JPG ou WebP, até ~300KB.
+
+------------------------------------------------------------------
+FOTOS DO CARDÁPIO (dentro de images/produtos/)
+------------------------------------------------------------------
+Tamanho recomendado: 800x600px (proporção 4:3), formato JPG ou WebP,
+até ~250KB cada, para o site carregar rápido.
+
+Entradas
+  e1.jpg  -> Pão de Alho Artesanal
+  e2.jpg  -> Bruschetta Caprese
+  e3.jpg  -> Provolone à Milanesa
+  e4.jpg  -> Carpaccio de Carne
+
+Massas
+  m1.jpg  -> Fettuccine ao Sugo
+  m2.jpg  -> Nhoque ao Molho Branco
+  m3.jpg  -> Penne ao Molho Rosé
+  m4.jpg  -> Lasanha à Bolonhesa
+
+Pizzas Tradicionais
+  p1.jpg  -> Calabresa
+  p2.jpg  -> Muçarela
+  p3.jpg  -> Margherita
+  p4.jpg  -> Frango com Catupiry
+
+Pizzas Especiais
+  p5.jpg  -> Portuguesa
+  p6.jpg  -> Quatro Queijos
+  p7.jpg  -> Quatro Estações
+
+Pizzas Doces
+  p8.jpg  -> Chocolate com Morango
+  p9.jpg  -> Romeu e Julieta
+
+Bebidas
+  b1.jpg  -> Refrigerante Lata (350ml)
+  b2.jpg  -> Refrigerante 2 Litros
+  b3.jpg  -> Suco Natural (Laranja / Limão)
+  b4.jpg  -> Água Mineral (Com ou Sem Gás)
+
+------------------------------------------------------------------
+SE VOCÊ MUDAR OU ADICIONAR PRODUTOS NO script.js
+------------------------------------------------------------------
+O nome da foto sempre segue o "id" do produto, definido no início do
+array `produtos` em script.js. Se criar um produto novo com
+id: "p10", a foto dele deve se chamar produtos/p10.jpg — não precisa
+mexer em nenhum outro lugar do código.
