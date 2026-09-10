@@ -24,10 +24,10 @@ const produtos = [
   { id: "e4", nome: "Carpaccio de Carne", descricao: "Fatias finas de carne, lascas de parmesão, rúcula e molho especial.", preco: 38.00, categoria: "entradas", imagem: "images/carpaccio.png" },
 
   // ---- Massas ----
-  { id: "m1", nome: "Fettuccine ao Sugo", descricao: "Massa fresca com molho de tomate caseiro e manjericão.", preco: 36.00, categoria: "massas", imagem: "images/pizza (5).jpe" },
-  { id: "m2", nome: "Nhoque ao Molho Branco", descricao: "Nhoque de batata artesanal com molho branco cremoso.", preco: 39.00, categoria: "massas", imagem: "images/pizza (6).jpe" },
-  { id: "m3", nome: "Penne ao Molho Rosé", descricao: "Penne em molho rosé com toque de parmesão.", preco: 38.00, categoria: "massas", imagem: "images/pizza (7).jpe" },
-  { id: "m4", nome: "Lasanha à Bolonhesa", descricao: "Camadas de massa fresca, molho bolonhesa e queijo gratinado.", preco: 44.00, categoria: "massas", imagem: "images/pizza (8).jpe" },
+  { id: "m1", nome: "Fettuccine ao Sugo", descricao: "Massa fresca com molho de tomate caseiro e manjericão.", preco: 36.00, categoria: "massas", imagem: "images/fettuccine.png" },
+  { id: "m2", nome: "Nhoque ao Molho Branco", descricao: "Nhoque de batata artesanal com molho branco cremoso.", preco: 39.00, categoria: "massas", imagem: "images/nhoque.png" },
+  { id: "m3", nome: "Penne ao Molho Rosé", descricao: "Penne em molho rosé com toque de parmesão.", preco: 38.00, categoria: "massas", imagem: "images/penne.png" },
+  { id: "m4", nome: "Lasanha à Bolonhesa", descricao: "Camadas de massa fresca, molho bolonhesa e queijo gratinado.", preco: 44.00, categoria: "massas", imagem: "images/lasanha.png" },
 
   // ---- Pizzas Tradicionais ----
   { id: "p1", nome: "Calabresa", descricao: "Molho de tomate artesanal, muçarela, calabresa fatiada, cebola e orégano.", preco: 42.00, categoria: "tradicionais", imagem: "images/calabresa.png" },
@@ -40,17 +40,17 @@ const produtos = [
   { id: "p6", nome: "Quatro Queijos", descricao: "Molho de tomate, muçarela, provolone, parmesão e gorgonzola.", preco: 50.00, categoria: "especiais", imagem: "images/Pizza-4-queijo.png" },
   { id: "p7", nome: "Quatro Estações", descricao: "Quatro sabores divididos: calabresa, muçarela, palmito e cogumelos.", preco: 52.00, categoria: "especiais", imagem: "images/quatro-estacoes.png" },
   { id: "p10", nome: "Abobrinha", descricao: "Muçarela,Abobrinha,Parmesão e alho", preco: 48.00, categoria: "especiais", imagem: "images/abobrinha.png"},
-  { id: "p11", nome: "Abobrinha", descricao: "Muçarela,Abobrinha,Parmesão e alho", preco: 48.00, categoria: "especiais", imagem: "images/lombo.png"},
+  { id: "p11", nome: "Lombo", descricao: "Lombo canadense,Muçarela e Requeijao cremoso", preco: 48.00, categoria: "especiais", imagem: "images/lombo.png"},
 
   // ---- Pizzas Doces ----
-  { id: "p8", nome: "Chocolate com Morango", descricao: "Chocolate ao leite derretido coberto com morangos frescos fatiados.", preco: 45.00, categoria: "doces", imagem: "images/pizza (1).jpe" },
-  { id: "p9", nome: "Romeu e Julieta", descricao: "A combinação perfeita de muçarela e goiabada cremosa.", preco: 42.00, categoria: "doces", imagem: "images/pizza (2).jpe" },
+  { id: "p8", nome: "Chocolate com Morango", descricao: "Chocolate ao leite derretido coberto com morangos frescos .", preco: 45.00, categoria: "doces", imagem: "images/morango.png" },
+  { id: "p9", nome: "Romeu e Julieta", descricao: "A combinação perfeita de muçarela e goiabada cremosa.", preco: 42.00, categoria: "doces", imagem: "images/romeu-julieta.png" },
 
   // ---- Bebidas ----
-  { id: "b1", nome: "Refrigerante Lata (350ml)", descricao: "Gelado, na lata.", preco: 6.00, categoria: "bebidas", imagem: "images/pizza (3).jpe" },
-  { id: "b2", nome: "Refrigerante 2 Litros", descricao: "Ideal para dividir.", preco: 12.00, categoria: "bebidas", imagem: "images/pizza (4).jpe" },
-  { id: "b3", nome: "Suco Natural (Laranja / Limão)", descricao: "Feito na hora.", preco: 8.00, categoria: "bebidas", imagem: "images/pizza (5).jpe" },
-  { id: "b4", nome: "Água Mineral (Com ou Sem Gás)", descricao: "500ml.", preco: 4.50, categoria: "bebidas", imagem: "images/pizza (6).jpe" },
+  { id: "b1", nome: "Refrigerante Lata (350ml)", descricao: "Gelado, na lata.", preco: 6.00, categoria: "bebidas", imagem: "images/lata.png" },
+  { id: "b2", nome: "Refrigerante 2 Litros", descricao: "Ideal para dividir.", preco: 12.00, categoria: "bebidas", imagem: "images/2litros.png" },
+  { id: "b3", nome: "Suco Natural (Laranja / Limão)", descricao: "Feito na hora.", preco: 8.00, categoria: "bebidas", imagem: "images/suco.png" },
+  { id: "b4", nome: "Água Mineral (Com ou Sem Gás)", descricao: "500ml.", preco: 4.50, categoria: "bebidas", imagem: "images/agua.png" },
 ];
 
 /* Estado do carrinho: { [id]: quantidade } — fica só na memória da página */
