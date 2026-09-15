@@ -455,6 +455,12 @@ input, textarea { font-family: inherit; }
 .footer-copy { font-size: 0.8rem; color: var(--text-muted); margin: 0; width: 100%; text-align: center; }
 @media (min-width: 700px) { .footer-copy { width: auto; text-align: right; } }
 
+/* Crédito do desenvolvedor */
+.credito-dev { font-size: 0.8rem; color: var(--text-muted); margin: 4px 0 0; width: 100%; text-align: center; }
+.credito-dev a { color: var(--text-muted); text-decoration: none; border-bottom: 1px solid currentColor; opacity: .85; transition: color .3s, opacity .3s; }
+.credito-dev a:hover { color: var(--green); opacity: 1; }
+@media (min-width: 700px) { .credito-dev { width: auto; text-align: right; } }
+
 /* ---------- Botão flutuante do carrinho (mobile) ---------- */
 .fab-cart {
   position: fixed;
